@@ -1,0 +1,93 @@
+.navbar{
+  border-bottom:1px solid black;
+  width:1260px;
+  height:50px;
+  display:flex;
+  margin-bottom: 50px;
+  div{
+    display: flex;
+    gap:3px;
+    padding-right: 10px;
+  }
+  button{
+    background-color: antiquewhite;
+    padding:3px 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+}
+.main{
+    margin-top: 100px;
+
+}
+.expense-list-container {
+    margin-top: 60px;
+    margin-left:120px;
+}
+
+.expense-list-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    margin-bottom: 8px;
+    width: 250px;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: top;
+    height: 200px;
+    margin-top: 25px;
+}
+
+.expense-list-card h3 {
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.expense-list-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expense-list-card li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9em;
+}
+
+.expense-list-card li:last-child {
+    border-bottom: none;
+}
+
+.expense-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.expense-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.expense-price {
+    font-weight: bold;
+}
+
+.expense-category {
+    font-style: italic;
+}
+
+.expense-description {
+    font-size: 0.85em;
+    margin: 0;
+}
+
+.expense-actions {
+    margin-top: 10px;
+}
+
+.expense-actions button {
+    margin-right: 5px;
+ margin-bottom:3px;
+}
